@@ -1,0 +1,27 @@
+{
+  "name": "wetubetest",
+  "version": "1.0.0",
+  "description": "클론코딩 연습",
+  "scripts": {
+    "dev": "nodemon --exec babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/min19828257/wetubeTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/min19828257/wetubeTest/issues"
+  },
+  "homepage": "https://github.com/min19828257/wetubeTest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "nodemon": "^2.0.13"
+  }
+}
